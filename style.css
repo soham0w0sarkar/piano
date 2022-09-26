@@ -34,6 +34,9 @@ body{
     margin-right: calc(var(--width)/2 *-1);
     z-index: 2;
 }
-.white:focus{
-    background-color: #fff4;
+.white.active{
+    background-color: #ccc;
+}
+.black.active{
+    background-color: #333;
 }
